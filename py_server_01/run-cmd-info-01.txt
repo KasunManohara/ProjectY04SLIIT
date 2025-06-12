@@ -1,0 +1,30 @@
+=============================================================================================
+
+conda create -p py_server_01 python==3.10 -y
+
+conda activate ./py_server_01
+
+pip install flask
+pip install Flask-Cors
+pip install tensorflow
+pip install joblib
+pip install pymongo
+
+pip install ultralytics
+pip install git+https://github.com/facebookresearch/segment-anything.git
+pip install ipython
+pip install -U scikit-learn
+pip install -U scikit-image
+pip install scipy
+pip install firebase-admin
+pip freeze > requirements.txt
+
+python -m flask --app ./app.py run --port=4085
+
+conda deactivate
+
+=============================================================================================
+
+conda deactivate
+
+=============================================================================================

@@ -1,0 +1,22 @@
+=============================================================================================
+
+conda create -p py_server_02 python==3.10 -y
+
+conda activate ./py_server_02
+
+pip install flask
+pip install Flask-Cors
+pip install tensorflow
+pip install joblib
+pip install pymongo
+pip freeze > requirements.txt
+
+python -m flask --app ./app.py run --port=4080
+
+conda deactivate
+
+=============================================================================================
+
+conda deactivate
+
+=============================================================================================
