@@ -4,7 +4,7 @@ Mushroom cultivation is a vital agricultural practice, but it faces significant 
 
     Contamination: The growth process is highly susceptible to contamination from bacteria and rival fungi (e.g., Trichoderma, Penicillium), leading to substantial crop losses. Current detection methods often rely on subjective, error-prone manual inspection.
 
-    Suboptimal Yields: Optimizing environmental conditions like temperature, humidity, and light for maximum fruit body yield is a complex task that requires constant monitoring and analysis.
+    Suboptimal Yields: Optimizing environmental conditions like temperature, humidity, and CO2 for maximum fruit body yield is a complex task that requires constant monitoring and analysis.
 
     Lack of Data-Driven Decisions: Growers generate vast amounts of data but often lack the tools to visualize and interpret it effectively, making it difficult to identify trends, predict outcomes, and plan cultivation strategies.
 
